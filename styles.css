@@ -443,6 +443,284 @@ nav h1{
     transition: all 1s;
 }
 
+
+/* ---Media Queries 1280--- */
+
+@media screen and (max-width:1280px) {
+    body{
+        
+        background: linear-gradient(to bottom,#D9ACF5,#BE6DB7) ;
+        font-family: 'Kanit', sans-serif;
+        
+    }
+
+    nav{
+        display: block;   
+        width: 100%;
+
+    }
+    nav .logo{
+        width: 100px;
+        display: inherit;
+        margin-inline: auto;
+    }
+
+    .user-pic{
+        display: none;
+    }
+
+    nav h1{
+        
+        font-size: 60px;
+        color: #000;
+        
+    }
+
+    .sub-menu{
+        display: none;
+    }   
+    
+    
+    .menu_perfil {
+        width: auto;
+        display: block;
+        text-align: center;
+        list-style: none;   
+         
+    } 
+
+    .menu__interno p {
+        color:#fff;
+        width: 100%;    
+        font-size: 30px;
+        transition: font-size 0.5s;
+    }
+
+    /* ---historia--- */
+
+    #sobre_mi h3{
+        text-align: center;
+        font-size: 50px;
+        cursor: pointer;
+    }
+    
+    .titulo{
+        width: auto;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+        padding: 25px;
+    }
+
+
+    .titulo .indicador{
+        background: #fff;
+        opacity: 55%;
+        border-radius: 50%;
+        width: 30px;
+        margin-left: 10px;
+        
+    }
+
+    
+
+    .img-completa{
+        float: right;
+        width: 50%;
+        height: 450px;
+        border-radius: 0;
+        
+
+        
+    }
+
+    .historia {
+        background-color: #D9ACF5;
+        font-size: 20px;
+        text-align: center;
+        max-height: 0px;
+        font-weight: 600;
+        border-radius: 15px ;
+        border: 3px solid #000;
+        margin-bottom: 70px;
+        overflow: hidden;
+        transition: max-height 1.5s;
+        
+    }
+
+    .abrir-historia{
+        max-height: 1500px;
+            
+    }
+
+    /* ---Experiencia Laboral--- */
+        
+
+    #laboral .indicador {
+        background: #fff;
+        opacity: 55%;
+        border-radius: 50%;
+        width: 30px;
+        margin-left: 10px;
+        
+    }
+
+    #laboral p{
+        text-align: center;
+        font-weight: 600;
+        font-size: 17px;
+        padding: 15px;
+    }
+
+
+    
+
+    #laboral .puesto{
+        
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+        background-color: #c1b3ca;
+        
+    
+
+    }
+    #laboral .fechas{
+        
+        font-size: 17px;
+        font-weight: 600;
+        background: #818081;
+        padding: 5px; 
+        border-radius:0 0 5px 10px ;
+        
+        
+    }
+
+    #laboral .lugar {
+        
+        font-size: 17px;
+        font-weight: 600;
+        background: #818081;
+        padding: 5px; 
+        border-radius:0 0 10px 5px ;
+        
+
+    }
+    .hechos{
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 50px;
+        
+    }
+
+    .logros{
+        
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .experiencia{
+        background-color: #D9ACF5;
+        max-height: 0px;
+        overflow: hidden;
+        border: 3px solid #000;
+        border-radius: 15px;
+        margin-bottom: 70px;
+        transition: max-height 1.5s;
+    }
+
+    .abrir-experiencia{
+        max-height: 2500px;
+        border-radius: 15px;
+    }
+
+    /* ---Educación--- */
+
+    .abrir-edu{    
+        max-height: 1000px;
+        border-radius: 15px;
+    }
+
+
+    /* ---Habilidades--- */
+
+    .skills{
+        background-color: #D9ACF5;
+        font-weight: 600;
+        font-size: 17px;
+        max-height: 0px;
+        border-radius: 15px ;
+        border: 3px solid #000;
+        overflow: hidden;
+        transition: max-height 1.5s;
+    }
+
+
+
+    .skills p{
+    font-size: 25px;    
+    color: #9b994a;
+        
+    }
+
+    .skills li{
+        display: inline-block;
+        align-items: center;
+        margin: 0;
+        padding: 15px;
+        
+
+    }
+
+    .abrir-habilidades{
+        max-height: 1200px;
+        border-radius: 15px;
+
+    }
+
+    /* ---Scroll--- */
+
+    #botonArriba{
+    display: none;
+    }
+
+
+    /* ---Contacto--- */
+
+
+
+      #contacto ul{
+        list-style: none;
+        display: block;        
+        font-weight: 600;
+        font-size: 15px;
+        background: linear-gradient(to top,#804674,#BE6DB7) ;
+    } 
+ 
+
+
+    #contacto ul img{
+        display: inline-block;
+        border-radius: 50%;
+        height: 35px;
+        
+    }
+
+    #contacto ul li{
+        display: block;
+        text-align: center;
+        height: auto;
+       
+    }
+
+}
+
+
+
+
 /* ---Media Queries 800px--- */
 
 @media screen and (max-width:800px) {
@@ -633,6 +911,13 @@ nav h1{
 
     .abrir-experiencia{
         max-height: 2500px;
+        border-radius: 15px;
+    }
+
+    /* ---Educación--- */
+
+    .abrir-edu{    
+        max-height: 1000px;
         border-radius: 15px;
     }
 
@@ -899,6 +1184,13 @@ nav h1{
 
     .abrir-experiencia{
         max-height: 2500px;
+        border-radius: 15px;
+    }
+
+    /* ---Educación--- */
+
+    .abrir-edu{    
+        max-height: 1000px;
         border-radius: 15px;
     }
 
